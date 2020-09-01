@@ -5,11 +5,19 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint app.ts",
     "start": "lite-server"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "^4.0.1",
+    "eslint": "^7.8.0",
+    "eslint-plugin-vue": "^6.2.2",
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "typescript": "^4.0.2"
   }
 }
