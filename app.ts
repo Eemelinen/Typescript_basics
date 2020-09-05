@@ -1,12 +1,19 @@
-function add (n1: number, n2: number) {
-  return n1 + n2
-};
+// const person: {
+//   name: string
+//   age: number
+// } = {
+const person = {
+  name: 'Eemeli',
+  age: 29,
+  hobbies: ['sports', 'cooking'],
+}
 
-const number1 = 5;
-const number2 = 3;
+// console.log(person.name);
 
-// Only assign types to variables that might change.
-let number3: number;
-number3 = 'string';
+let favouriteActivities: string[];
+favouriteActivities = ['sports'];
 
-console.log(add(number1, number2));
+for (const hobby of favouriteActivities) {
+  console.log(hobby.toUpperCase());
+}
+
